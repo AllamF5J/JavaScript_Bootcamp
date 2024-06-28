@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Learn JavaScript</title>
+
+  <script>
+    /*
+      Code One
+      This Script Change a Color For Element Has An Id Called "el".
+      This Script Doesn't Work Because The Element Is Load Before An Element <h1> Is Fully Loaded. 
+      id "el" doesn't Not exist yet, So Script Is Failed.
+    */
+    document.getElementById("el").style.color = "red";
+  </script>
+
+  <script>
+    /*
+      Code Two
+      This Script Change a Color For Element Has An Id Called "el".
+      This Script Correctly Changes The Color Because It Use A Function window.onload 
+      To Ensure A That The Script Will Run After Reload.
+    */
+    window.onload = function () {
+      document.getElementById("el").style.color = "red";
+    };
+  </script>
+</head>
+
+<body>
+  <h1 id="el">Page Title</h1>
+
+  <script>
+    /*
+      Code Three
+      This Script Change a Color For Element Has An Id Called "el".
+      This Script Correctly Changes The Color Because This Script IS Run After Reloaded All Page Elements
+      Because It Replace At The End Of Body, So It Can Change A Color Of Element Because It Now Exist.
+    */
+    document.getElementById("el").style.color = "red";
+  </script>
+</body>
+
+</html>
