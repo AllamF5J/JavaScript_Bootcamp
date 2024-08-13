@@ -7,9 +7,6 @@ function calculate(firstNum, secondNum, operation) {
     case 'add':
       console.log(firstNum + secondNum);
       break;
-    case 'add':
-      console.log(firstNum + secondNum);
-      break;
     case 'subtract':
       console.log(firstNum - secondNum);
       break;
