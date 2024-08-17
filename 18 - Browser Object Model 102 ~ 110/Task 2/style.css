@@ -1,0 +1,30 @@
+.popUp {
+  border: 1px solid #9999993d;
+  padding: 10px 20px;
+  text-align: center;
+  width: 400px;
+  margin: 30% auto;
+  position: relative;
+  background-color: #f4f4f4;
+  font-family: Arial;
+
+  button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 6px;
+  }
+}
