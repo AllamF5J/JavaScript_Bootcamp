@@ -1,0 +1,37 @@
+[
+  {
+    "id" : 1,
+    "author": "Ahmed Allam",
+    "category": "Programming",
+    "title" : "C++",
+    "body": "Article Number 1"
+  },
+  {
+    "id" : 2,
+    "author": "Mohammed Allam",
+    "category": "Science",
+    "title" : "H2O",
+    "body": "Article Number 1"
+  },
+  {
+    "id" : 3,
+    "author": "Ahmed Mohammed",
+    "category": "Techonlogy",
+    "title" : "Basics of CS",
+    "body": "Article Number 1"
+  },
+  {
+    "id" : 4,
+    "author": "Fathy",
+    "category": "Math",
+    "title" : "Calculus",
+    "body": "Article Number 1"
+  },
+  {
+    "id" : 5,
+    "author": "Osama",
+    "category": "Math",
+    "title" : "Linear algebra",
+    "body": "Article Number 1"
+  }
+]
