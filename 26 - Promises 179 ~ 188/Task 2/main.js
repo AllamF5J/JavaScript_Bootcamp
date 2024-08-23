@@ -18,3 +18,5 @@ const getData = async (jsonLink) => {
 }
 
 getData("../data.json");
+
+// ! هَٰذَا مِن فَضْلِ رَبِّي
