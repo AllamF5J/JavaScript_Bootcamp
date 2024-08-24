@@ -7,7 +7,7 @@ Welcome to the JavaScript Basics repository! This repository serves as a compreh
 This repository is designed to provide you with a solid foundation in JavaScript, covering everything from basic syntax to more advanced concepts. Whether you're a beginner just starting out or looking to refresh your knowledge, you'll find valuable resources and examples here to help you understand and master JavaScript.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Completion-30%25-blue" alt="Completion">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Completion-99%25-blue" alt="Completion">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://visitor-badge.laobi.icu/badge?page_id=AllamF5JJavaScript_Course" alt="Visitors"/>
 </p>
 
